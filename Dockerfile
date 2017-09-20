@@ -1,5 +1,5 @@
 FROM dgraph/dgraph 
 
-RUN mkdir /sncr
+RUN mkdir /dgraph/sncr
 
-VOLUME ["/sncr"]
+VOLUME ["/dgraph/sncr"]
